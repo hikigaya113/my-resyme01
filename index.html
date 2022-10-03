@@ -1,308 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/projects.css" />
-    <link rel="stylesheet" href="./css/hero.css" />
-    <link rel="stylesheet" href="./css/about_me.css" />
-    <link rel="stylesheet" href="./css/services.css" />
-    <link rel="stylesheet" href="./css/contact.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-    <link rel="stylesheet" href="./css/nav-bar.css" />
-    <link rel="stylesheet" href="./css/skills.css" />
-  </head>
-  <body>
-    <!-- Nav bar starts -->
-    <section id="header">
-      <div class="header container">
-        <div class="nav-bar">
-          <div class="brand">
-            <a href="#hero"
-              ><h1><span>R</span>ahul <span>B</span>isht</h1></a
-            >
-          </div>
-          <div class="nav-list">
-            <div class="hamburger">
-              <div class="bar"></div>
-            </div>
-            <ul>
-              <li><a href="#hero" data-after="Home">Home</a></li>
-              <!-- <li><a href="#services" data-after = "Services">Services</a></li> -->
-              <li><a href="#about" data-after="About Me">About Me</a></li>
-              <li><a href="#skills" data-after="Skills">Skills</a></li>
-              <li><a href="#projects" data-after="Projects">Projects</a></li>
-              <li><a href="#contact" data-after="Contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Nav bar ends -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/67f90d68ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
 
-    <!-- Main Section -->
-    <section id="hero">
-      <div class="hero container">
-        <div>
-          <h1>Hello, <span></span></h1>
-          <h1>My Name is <span></span></h1>
-          <h1>Rahul Singh Bisht. <span></span></h1>
-          <a href="#about" type="button" class="cta">About Me</a>
-        </div>
-      </div>
-    </section>
+    <title>Document</title>
+</head>
+<body> 
+   
+    <form class="box" action="home.html" method="post">
+        <h1>LOGIN</h1>
+  
+     <div>
+        <p><i class="fas fa-user"></i></p>
+    <input type="text" = name="placeholder" = "ENTER USERNAME" id="username">   
+  
 
-    <!-- Main Section Ends -->
+</div>
+<div>
+    <p><i class="fas fa-envelope"></i></p>
+    <input type="password" = name =" placeholder" = "ENTER PASSWORD" id="password">
 
-    <!-- About me section starts -->
-    <section id="about">
-      <div class="about container">
-        <div class="col-left">
-          <div class="about-img">
-            <img src="./img/my-img.jpg" alt="" />
-          </div>
-        </div>
-        <div class="col-right">
-          <div class="section-title">
-            <h1 class="section-title">About <span>ME</span></h1>
-            <h3>Web Developer</h3>
-            <p>
-              I'm a student of KIET Groups of Institution, Ghaziabad pursuing a
-              Bachelor degree in Computer Science and Engineering. I'm also a
-              part of Programming. I'm very much intrested in coding and
-              currently i'm working on Web Developement and Competitive Coding.
-              I do Competitive coding on various coding platforms like Codechef
-              and hackerrank.
-            </p>
-            <a
-              href="https://drive.google.com/file/d/1GJ50Yp1FBdR_AONSfkxG-dYZB9wWKmYN/view?usp=sharing"
-              target="_blank"
-              class="cta"
-              >Resume</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
+</div>
+  
+<div>
+        <input type="submit" value="LOGIN"  >
+    </div>
 
-    <!-- Skills starts -->
-    <section id="skills">
-      <div class="skills container1">
-        <div class="skill-header">
-          <h1 class="section-title">My <span>Skills</span></h1>
-        </div>
-        <div class="all-skills">
-          <!-- <div class="skill-item"> -->
-          <ul>
-            <li>C++</li>
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Java</li>
-            <li>REACTJS</li>
-            <li>Data structres and Algorithm</li>
-            <li>Git</li>
-            <!-- <li>Data structres and Algorithm</li> -->
-          </ul>
-          <!-- </div> -->
-        </div>
-      </div>
-    </section>
-    <!-- Skilss ends -->
+    </form>
+</body>
 
 
-     <!-- CHANGE TO BE MADE -->
-
-    <!-- Projects starts -->
-    <section id="projects">
-      <div class="projects container">
-        <div class="project-header">
-          <h1 class="section-title">Recent <span>Projects</span></h1>
-        </div>
-        <div class="all-projects">
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 1</h1>
-              <h2>StoryApp</h2>
-              <p>
-                Made the StoryApp , where the user can share his/her experience
-                about anything like any life experience or interview experience
-                to help others which are stuck in the same situations. In this
-                the user will have to login using google-oauth2.0 and the
-                database used is MONGODB and NODEJS as backend. The project is
-                hosted on heroku . <br /><br />
-                <span style="font-size: 2rem; font-weight: 500">link</span> -<a
-                  href="https://deepak290701-storyapp.herokuapp.com/"
-                  target="blank"
-                >
-                  <span style="font-size: 2rem; color: cyan">click me</span></a
-                >
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="./img/Screenshot_2020-10-07 StoryApp.png" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 2</h1>
-              <h2>Persian Conqueror </h2>
-              <p>
-               I made a game in which the player must smash a wall of lamps by detecting the shield from the sword. The
-backbone of the project is built using JavaScript and HTML5 Canvas and the designing part is implemented through CSS and its animations.
- <br /><br />
-                <span style="font-size: 2rem; font-weight: 500">link</span> -<a
-                  href="https://hikigaya113.github.io/persian/"
-                  target="blank"
-                >
-                  <span style="font-size: 2rem; color: cyan">click me</span></a
-                >
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="./img/amazon_twin.jpeg" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 3</h1>
-              <h2>Url-Shortner</h2>
-              <p>
-                I have made the project url-shortner , with help yof this you
-                can convert your long links into a simple and short link which
-                are easy to use. Just enter the link and press shorten it. It's
-                that simple.
-                <br /><br />
-                <span style="font-size: 2rem; font-weight: 500">link</span> -<a
-                  href="https://deepak-url-shortner.herokuapp.com/"
-                  target="blank"
-                >
-                  <span style="font-size: 2rem; color: cyan">click me</span></a
-                >
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="./img/url-shortner.png" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 4</h1>
-              <h2>Chat-App</h2>
-              <p>
-                I have made the chat app using socket.io with the help of which
-                messages are being sent in real time.
-                <br /><br />
-                <span style="font-size: 2rem; font-weight: 500">link</span> -<a
-                  href="https://deepak290701-chatapp.herokuapp.com"
-                  target="blank"
-                >
-                  <span style="font-size: 2rem; color: cyan">click me</span></a
-                >
-              </p>
-            </div>
-            <div class="project-img">
-              <img src="./img/chat-app.png" alt="img" />
-            </div>
-          </div>
-          <div class="project-item">
-            <div class="project-info">
-              <h1>Project 5</h1>
-              <h2>Weather App</h2>
-              <p>
-                Made the Weather App , which tells you the current temperature
-                of any city using the open weather api . <br /><br />
-                <span style="font-size: 2rem; font-weight: 500">link</span> -<a
-                  href="https://deepak290701.github.io/Weather-app/"
-                  target="blank"
-                >
-                  <span style="font-size: 2rem; color: cyan">click me</span></a
-                >
-              </p>
-            </div>
-            <div class="project-img">
-              <img
-                src="./img/Screenshot_2020-10-07 Weather App.png"
-                alt="img"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- project ends -->
-
-
-
-
-     <!-- NOTHING TO BE CHANGE FROM HERE -->
-
-    <!-- Contact me starts -->
-    <section id="contact">
-      <div class="container contact">
-        <div class="section-title">
-          <h1 class="section-title">CONTACT <span>INFO</span></h1>
-        </div>
-        <div class="contact-items">
-          <div class="contact-item">
-            <div class="icon">
-              <!-- <img src="https://img.icons8.com/bubbles/100/000000/email.png"/>-->
-              <img src="./img/16983312581574338606-64.png" alt="" />
-            </div>
-            <div class="contact-info">
-              <h1>Email</h1>
-              <h3>bishtrahul073@gmail.com</h3>
-            </div>
-          </div>
-          <div class="contact-item">
-            <div class="icon">
-              <!-- <img src="https://img.icons8.com/bubbles/100/000000/phone.png"/> -->
-              <img src="./img/phone-32.png" alt="" />
-            </div>
-            <div class="contact-info">
-              <h1>Phone</h1>
-              <h3>+91-8938803106</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact me ends -->
-
-    <!-- footer starts -->
-    <section id="footer">
-     
-        <h2>Thank you for the Visit!!!</h2>
-        <div class="social-icon">
-          <div class="social-item">
-            <a href="https://github.com/hikigaya113" target="_blank">
-              <img src="https://img.icons8.com/fluent/48/000000/github.png" />
-            </a>
-          </div>
-          <div class="social-item">
-            <a
-              href="https://www.linkedin.com/in/rahul-singh-bisht-26ba2a221/"
-              target="_blank"
-            >
-              <img src="https://img.icons8.com/color/48/000000/linkedin.png" />
-            </a>
-          </div>
-        </div>
-        <p>&copy Rahul Singh Bisht</p>
-      </div>
-    </section>
-
-    <!-- footer ends -->
-
-    <script src="./js/app.js"></script>
-  </body>
 </html>
